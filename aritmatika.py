@@ -1,35 +1,4 @@
 # from main import mainMenu
-
-
-
-
-
-def bangunRuang():
-    while True:
-        print('''Menu Bangun Ruang
-            1. Kubus
-            2. Balok
-            3. Tabung
-            4. Kerucut
-            0. Main menu
-            ''')
-        pilihan = int(input("Masukkan operasi yang anda inginkan: "))
-
-        if pilihan == 1:
-            interface_kubus()
-        elif pilihan == 2:
-            interface_balok()
-        elif pilihan == 3:
-            interface_tabung()
-        elif pilihan == 4:
-            interface_karucut()
-        elif pilihan == 0:
-            break
-        else:
-            print("Menu tidak ada pada pilihan, masukkan 0 - 4")
-        ValueError("masukan Angka")
-
-
 def interface_kubus():
     while True:
         s = float(input("Masukkan sisi : "))

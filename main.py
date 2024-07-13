@@ -1,5 +1,5 @@
 # def mainMenu():
-from aritmatika import bangunRuang, bangunDatar, interface_kubus, interface_karucut, interface_tabung, interface_balok
+from aritmatika import bangunDatar, interface_kubus, interface_karucut, interface_tabung, interface_balok
 
 
 
