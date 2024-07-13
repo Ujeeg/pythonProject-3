@@ -106,7 +106,6 @@ def integralTentu():
 
 
 
-
 def integralTakTentu():
     pass
 
